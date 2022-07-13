@@ -19,8 +19,8 @@ class Image(pygame.sprite.Sprite):
         self.j = j
         self.x = x
         self.y = y
-        self.colms = 5
-        self.lines = 5
+        self.colms = 3
+        self.lines = 3
         self.image = image
         self.width, self.height = image.get_size()
         self.rect = image.get_rect()
